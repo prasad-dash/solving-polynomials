@@ -15,7 +15,7 @@ The given dataset has nearly 1 million records and cannot be loaded into memory 
 
 I have used the follwoing convention
  - Overall <=2 : Rating Negative
- - Overall ==2 : Rating Neutral
+ - Overall ==3 : Rating Neutral
  - Overall >=4 : Rating Positive
 
 ---
@@ -28,4 +28,11 @@ I have used the follwoing convention
 | neutral              | 0.22      | 0.23   | 0.22     | 4954    |
 | negative             | 0.86      | 0.84   | 0.85     | 33509   |
 
-Accuracy: 0.74
+- Accuracy: 0.74
+
+--- 
+
+## Conslusion
+
+The model perfoms well in differentiating the positive comments from negative comments but struggles to differentiate neutral comments from either of them.
+
