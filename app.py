@@ -19,7 +19,7 @@ def predict():
     input_values=[x for x in request.form.values()][0]
     input_values=[word for word in input_values.split() if word in vocabulary]
     input_values=' '.join(input_values)
-    if(input_values=='')
+    if(input_values==''):
         return render_template('index.html',prediction=2)    
     input_values=textUtility(input_values)
     X=vectoriser.transform([input_values])
