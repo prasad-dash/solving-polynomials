@@ -14,7 +14,12 @@ This my submission repository for Polynomial.ai internship task.
 The given dataset has nearly 1 million records and cannot be loaded into memory directly. I have used the chunksize options in pandas.read_json to read 50000 records each time and use it for training the model. As of now I am using the bernoulli naive bayes model from sklearn which supports increamental learning. The reason for not using a neural network based model from the onset is the large amount of time required to train an LSTM or RNN. 
 
 I have used the follwoing convention
-- 
+ - Overall <=2 : Rating Negative
+ - Overall ==2 : Rating Neutral
+ - Overall >=4 : Rating Positive
+
+---
+
 ## Model Metrics
 
 |                      | precision | recall | f1-score | support |
