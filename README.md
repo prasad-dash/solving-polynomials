@@ -40,3 +40,7 @@ I have used Flask and heroku to deplot the model. Seamntic-ui has been used for 
 
 The model perfoms well in differentiating the positive comments from negative comments but struggles to differentiate neutral comments from either of them.
 
+
+LIVE COLAB LINK :[CoLAB](https://colab.research.google.com/drive/1gHPTw8zTTsZUCXiKzhmAcvec10SWZ6tH?usp=sharing)
+ (The included colab files does not update automatically) 
+
